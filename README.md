@@ -60,7 +60,11 @@
   * [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
     * View Mermaid diagrams when previewing Markdown.
 
-### Extension package names for easy install
+### Extension package names for easy install 
+Note: copy the below extenstions and create a file name extensions.txt and execute following command:
+```
+cat extensions.txt | xargs -L1 code --install-extension
+```
 
 ```
 nur.just-black
@@ -74,18 +78,20 @@ streetsidesoftware.code-spell-checker
 yoavbls.pretty-ts-errors
 quicktype.quicktype
 adpyke.codesnap
-rangav.vscode-thunder-client
 DotJoshJohnson.xml
 bradlc.vscode-tailwindcss
 dsznajder.es7-react-js-snippets
 infarkt.css-to-jss
 paulmolluzzo.convert-css-in-js
 styled-components.vscode-styled-components
-Vue.volar
-svelte.svelte-vscode
 Prisma.prisma
-otovo-oss.htmx-tags
 bierner.markdown-mermaid
+golang.go
+wallabyjs.console-ninja
+johnpapa.vscode-peacock
+admondtamang.svg-fix
+pratishshr.bharyang-vscode
+aaron-bond.better-comments
 ```
 
 # Settings
