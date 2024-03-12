@@ -92,6 +92,7 @@ johnpapa.vscode-peacock
 admondtamang.svg-fix
 pratishshr.bharyang-vscode
 aaron-bond.better-comments
+eamodio.gitlens
 ```
 
 # Settings
