@@ -42,6 +42,7 @@ admondtamang.svg-fix
 pratishshr.bharyang-vscode
 aaron-bond.better-comments
 eamodio.gitlens
+sainoba.px-to-rem
 ```
 
 # Settings
