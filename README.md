@@ -44,6 +44,7 @@ aaron-bond.better-comments
 eamodio.gitlens
 sainoba.px-to-rem
 techiecouch.laravel-php-essentials
+streetsidesoftware.code-spell-checker
 ```
 
 # Settings
