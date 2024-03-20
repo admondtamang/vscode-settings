@@ -43,6 +43,7 @@ pratishshr.bharyang-vscode
 aaron-bond.better-comments
 eamodio.gitlens
 sainoba.px-to-rem
+techiecouch.laravel-php-essentials
 ```
 
 # Settings
