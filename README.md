@@ -54,12 +54,9 @@ streetsidesoftware.code-spell-checker
   "codesnap.backgroundColor": "#000000",
   "codesnap.containerPadding": "0px",
   "codesnap.showWindowControls": false,
-  "codesnap.transparentBackground": true,
+  // "codesnap.transparentBackground": true,
   "cSpell.enabled": true,
-  "cSpell.enableFiletypes": [
-    "mdx"
-  ],
-  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.enableFiletypes": ["mdx"],
   "editor.detectIndentation": true,
   "editor.fontFamily": "Anonymous Pro",
   "editor.fontLigatures": true,
@@ -69,26 +66,20 @@ streetsidesoftware.code-spell-checker
   "editor.lineHeight": 0,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
+  // "editor.multiCursorModifier": "ctrlCmd",
   "editor.snippetSuggestions": "top",
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": [
-          "keyword.operator",
-          "punctuation.separator"
-        ],
+        "scope": ["keyword.operator", "punctuation.separator"],
         "settings": {
           "fontStyle": ""
         }
       },
       {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
+        "scope": ["comment", "comment.block"],
         "settings": {
           "fontStyle": "italic",
           "foreground": "#F5F"
@@ -106,13 +97,7 @@ streetsidesoftware.code-spell-checker
   "editor.unicodeHighlight.invisibleCharacters": false,
   "emmet.showAbbreviationSuggestions": false,
   "eslint.enable": true,
-  "eslint.validate": [
-    "vue",
-    "react",
-    "typescript",
-    "html",
-    "javascript"
-  ],
+  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
   "explorer.openEditors.visible": 1,
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "onWindowChange",
@@ -133,17 +118,16 @@ streetsidesoftware.code-spell-checker
   },
   "search.useIgnoreFiles": false,
   "svelte.enable-ts-plugin": true,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "vsicons.dontShowNewVersionMessage": true,
-  "window.zoomLevel": 4,
-  "workbench.colorTheme": "Just Black",
   "workbench.editor.labelFormat": "medium",
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false,
+  // "workbench.statusBar.visible": false,
   "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[js]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[handlebars]": {
@@ -179,6 +163,30 @@ streetsidesoftware.code-spell-checker
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "workbench.colorCustomizations": {},
+  "terminal.integrated.env.osx": {},
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "workbench.activityBar.location": "top",
+  "cSpell.userWords": ["hookform", "iconsax", "tanstack", "toastify"],
+  "go.toolsManagement.autoUpdate": true,
+  "console-ninja.featureSet": "Community",
+  "explorer.confirmDelete": false,
+  "editor.accessibilitySupport": "off",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "chatgpt.lang": "en",
+  "animations.Install-Method": "Apc Customize UI++",
+  "update.mode": "manual",
+  "apc.imports": [
+    "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+  ],
+  "apc.electron": {
+    "opacity": 0.90,
+    "transparent": true,
+    "backgroundColor": "#00000000",
+    "vibrancy": "ultra-dark"
+},
+  // "workbench.colorTheme": "Transparent Color Theme"
 }
 ```
 
