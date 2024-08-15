@@ -9,8 +9,26 @@
 * [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
   * See [`editor.tokenColorCustomizations`](#settings) in my VS Code settings for a few modifications I make to the theme.
 
+
+## Enable the code Command in PATH
+Open Visual Studio Code.
+Open the Command Palette: Press Ctrl + Shift + P (or Cmd + Shift + P on macOS).
+Type and Select: Shell Command: Install 'code' command in PATH.
+
 ### Extension package names for easy install 
 Note: copy the below extenstions and create a file name extensions.txt and execute following command:
+```
+echo "nur.just-black fosshaas.fontsize-shortcuts vscode-icons-team.vscode-icons dbaeumer.vscode-eslint esbenp.pr
+ettier-vscode quicktype.quicktype vunguyentuan.vscode-postcss streetsidesoftware.code-spell-checker yoavbls.pretty-
+ts-errors adpyke.codesnap DotJoshJohnson.xml bradlc.vscode-tailwindcss dsznajder.es7-react-js-snippets infarkt.css-
+to-jss paulmolluzzo.convert-css-in-js styled-components.vscode-styled-components Prisma.prisma bierner.markdown-mer
+maid golang.go wallabyjs.console-ninja johnpapa.vscode-peacock admondtamang.svg-fix pratishshr.bharyang-vscode aaro
+n-bond.better-comments eamodio.gitlens sainoba.px-to-rem techiecouch.laravel-php-essentials" | xargs -L1 code --ins
+tall-extension
+```
+
+OR
+
 ```
 cat extensions.txt | xargs -L1 code --install-extension
 ```
