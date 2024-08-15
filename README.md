@@ -1,4 +1,4 @@
-# VS Code Settings
+# VS Code Configurations
 
 # Font
 
@@ -18,8 +18,10 @@ Type and Select: Shell Command: Install 'code' command in PATH.
 ### Extension package names for easy install 
 #### swift install
 ```
+https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/extension.txt
+
 # install extensions.json
-curl -s https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/extension.txt | xargs -L1 code --install-extension
+curl -s https://gist.github.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/extension.txt | xargs -L1 code --install-extension
 
 # Update settings.json
 curl -s https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
