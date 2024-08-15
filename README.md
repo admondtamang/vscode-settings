@@ -18,7 +18,27 @@ Type and Select: Shell Command: Install 'code' command in PATH.
 ### Extension package names for easy install 
 #### swift install
 ```
-curl https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/extension.txt | xargs -L1 code --install-extension
+# install extensions.json
+curl -s https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/extension.txt | xargs -L1 code --install-extension
+
+# Update settings.json
+curl -s https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/settings.json -o ~/Library/Application\ Support/Code/User/settings.json
+
+# Update keybindings.json
+curl -s https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/keybindings.json -o ~/Library/Application\ Support/Code/User/keybindings.json
+
+```
+
+
+windows
+```
+# Update settings.json
+Invoke-WebRequest -Uri https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/settings.json -OutFile "$env:APPDATA\Code\User\settings.json"
+
+# Update keybindings.json
+Invoke-WebRequest -Uri https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/keybindings.json -OutFile "$env:APPDATA\Code\User\keybindings.json"
+
+
 ```
 
 OR
