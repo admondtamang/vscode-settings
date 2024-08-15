@@ -16,13 +16,14 @@ Open the Command Palette: Press Ctrl + Shift + P (or Cmd + Shift + P on macOS).
 Type and Select: Shell Command: Install 'code' command in PATH.
 
 ### Extension package names for easy install 
-Note: copy the below extenstions and create a file name extensions.txt and execute following command:
+#### swift install
 ```
 curl https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/extension.txt | xargs -L1 code --install-extension
 ```
 
 OR
 
+#### Another method: copy the below extenstions and create a file name extensions.txt and execute following command:
 ```
 cat extensions.txt | xargs -L1 code --install-extension
 ```
