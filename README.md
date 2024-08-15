@@ -18,12 +18,7 @@ Type and Select: Shell Command: Install 'code' command in PATH.
 ### Extension package names for easy install 
 Note: copy the below extenstions and create a file name extensions.txt and execute following command:
 ```
-echo "nur.just-black fosshaas.fontsize-shortcuts vscode-icons-team.vscode-icons dbaeumer.vscode-eslint esbenp.pr
-ettier-vscode quicktype.quicktype vunguyentuan.vscode-postcss streetsidesoftware.code-spell-checker yoavbls.pretty-
-ts-errors adpyke.codesnap DotJoshJohnson.xml bradlc.vscode-tailwindcss dsznajder.es7-react-js-snippets infarkt.css-
-to-jss paulmolluzzo.convert-css-in-js styled-components.vscode-styled-components Prisma.prisma bierner.markdown-mer
-maid golang.go wallabyjs.console-ninja johnpapa.vscode-peacock admondtamang.svg-fix pratishshr.bharyang-vscode aaro
-n-bond.better-comments eamodio.gitlens sainoba.px-to-rem techiecouch.laravel-php-essentials" | xargs -L1 code --ins
+curl https://gist.githubusercontent.com/admondtamang/5020ddc261ecd5e172aeb21a52730d61/raw/213f5264a755e16ee99399ec3dc6bfd90f1ea8e1/extension.txt | xargs -L1 code --ins
 tall-extension
 ```
 
